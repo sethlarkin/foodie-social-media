@@ -11,6 +11,11 @@ async function Meals() {
     )
 }
 
+export const metadata = {
+  title: "All Meals",
+  description: "Browse the delicious meals, shared by our vibrant community.",
+};
+
 export default async function MealsPage() {
 
     return (
